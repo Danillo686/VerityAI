@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Rust build artifacts
+target/
+backend/target/
+Cargo.lock
+
+# Python virtual environment and cache
+venv/
+*/venv/
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+automation/generated_files/*
+!automation/generated_files/.gitkeep
+
+# Build outputs
+dist/
+frontend/dist/
+build/
+
+# Environment files and credentials
+.env
+*.env
+!.env.example
+*.local
+
+# Database local storage
+*.sqlite
+*.sqlite3
+*.db
+database/verity_ai.sqlite
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
